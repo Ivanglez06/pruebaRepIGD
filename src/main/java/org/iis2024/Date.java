@@ -21,10 +21,18 @@ public class Date {
   private final int year;
 
   /**
+   * Prints out full date
+   */
+  public void fullDate(){
+    System.out.println(day + "/" + month + "/" + year);
+  }
+
+  /**
    * Retrieves the day component of this date.
    *
    * @return The day of the month (1-31).
    */
+
   public int getDay() {
     return day;
   }
